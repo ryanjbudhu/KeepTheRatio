@@ -21,7 +21,7 @@
 
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<?PHP
-		$con = mysqli_connect("sql.njit.edu", "rjb57", "5julL6kuS");
+		$con = mysqli_connect("sql.njit.edu", USERNAME, PASSWORD);
 		if (!$con) {
 			die('Could not connect: ' . mysqli_error($con));	
 		}
